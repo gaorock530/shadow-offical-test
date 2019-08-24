@@ -1,0 +1,38 @@
+.big-photo {
+  position: relative;
+  padding-top: 80px;
+  overflow: hidden;
+
+  .photo-s1 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  .photo-s3 {
+    position: relative;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  .photo-s2 {
+    position: absolute;
+    width: 20%;
+    top: 31%;
+    left: 73%;
+    z-index: 2;
+  }
+}
+
+
+.section-canvas {
+  height: 800px;
+  background-color: #111628;
+  overflow: hidden;
+}
+.parallex-canvas {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
