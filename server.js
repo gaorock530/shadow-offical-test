@@ -5,8 +5,9 @@ const path = require('path');
 const express = require('express');
 const app = express();
 
-
+app.set('x-powered-by', false);
 app.use(express.static(__dirname + '/build'));
+
 
 const options = {
   key: fs.readFileSync(path.join(__dirname, '/ssl/www/2_www.yingxitech.com.key')),
