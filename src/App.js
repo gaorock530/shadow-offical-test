@@ -34,7 +34,7 @@ class App extends React.PureComponent {
           {/* <BFS></BFS> */}
           <Parallex />
           <Parallex2 />
-          <Pixi></Pixi>
+          {/* <Pixi></Pixi> */}
           {/* <section></section>
           <section><div></div></section>
           <section><div></div></section> */}
